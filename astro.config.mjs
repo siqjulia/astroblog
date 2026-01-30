@@ -2,7 +2,6 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://siqjulia.github.io', // DOMAIN
-  base: '/astroblog', // REPOSITORY
+  site: 'https://astroblog-jsiq.netlify.app/', // DOMAIN
   output: 'static',
 });
