@@ -43,10 +43,12 @@ html {
   .nav-links a:focus {
     background-color: #ff9776;
   }
+
+  
   
   @media screen and (min-width: 636px) {
     .nav-links {
-      margin-left: 5em;
+      margin-left: 0em;
       display: block;
       position: static;
       width: auto;
@@ -57,4 +59,14 @@ html {
       display: inline-block;
       padding: 15px 20px;
     }
+  }
+
+  
+  .menu {
+    background-color: #0d0950;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 5px 10px;
   }
