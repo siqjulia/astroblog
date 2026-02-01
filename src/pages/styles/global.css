@@ -70,3 +70,11 @@ html {
     font-weight: bold;
     padding: 5px 10px;
   }
+
+  :has(.menu[aria-expanded="true"]) .nav-links {
+    display: unset;
+  }
+
+  .menu {
+    display: none;
+  }
