@@ -1,5 +1,5 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
 const tags = ['astro', 'blogging', 'learning in public', 'successes', 'setbacks', 'community']
 const pageTitle = "Tag Index";
 const allPosts = Object.values(import.meta.glob('../posts/*.md', { eager: true }));
